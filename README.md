@@ -7,7 +7,8 @@ This is a sample application for the verification laboratory.
 * The application is implemented in Java.
 * The project can be built using [Gradle](https://gradle.org/).
 * [JUnit](http://junit.org/junit4/) is used for tests.
-
+* The project is hosted on GitHub: [title](https://github.com/pocso/base)
+* Can be downloaded with the following command: `git@github.com:pocso/base.git`
 Clone the repository and execute Gradle to build the application:
 
 ```
