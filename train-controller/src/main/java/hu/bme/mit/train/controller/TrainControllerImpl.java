@@ -8,7 +8,8 @@ public class TrainControllerImpl implements TrainController {
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
 
-	private int ULTIMATE_SPEED_LIMIT = 200;
+
+	private int ULTIMATE_SPEED_LIMIT = 400;
 
 	@Override
 	public void followSpeed() {
