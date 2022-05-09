@@ -7,7 +7,7 @@ import java.util.TimerTask;
 public class TrainControllerImpl implements TrainController {
 
 	private int step = 0;
-	private int referenceSpeed = 0;
+	private int referenceSpeed = 5;
 	private int speedLimit = 100;
 	private long timeStep = 1000L;
 
