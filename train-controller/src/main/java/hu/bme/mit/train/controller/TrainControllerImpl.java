@@ -11,6 +11,15 @@ public class TrainControllerImpl implements TrainController {
 
 	private int ULTIMATE_SPEED_LIMIT = 400;
 
+	public void TrainControllerImpl() { 	
+			TimerTask task = new TimerTask() { 			
+				public void run () { 				
+					followSpeed();  	
+						} 	
+	   } ; 
+			Timer ti = new Timer( "Reference speed" ); 		
+			ti.schedule(task, 0, 1000);
+
 	@Override
 	public void followSpeed() {
 		if (referenceSpeed < 0) {
